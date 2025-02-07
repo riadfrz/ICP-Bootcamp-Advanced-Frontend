@@ -27,15 +27,10 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 - Using **@dfinity/agent** to connect React with ICP
 - Fetching and updating **backend data from canisters**
 
-### 🔐 **Using Internet Identity for Frontend Authentication**
-- Understanding **decentralized authentication** with Internet Identity
+### 🔐 **Using Identity Kit for Frontend Authentication**
+- Understanding **decentralized authentication** with Identity Kit (Internet Identity and NFID)
 - Implementing **sign-in & sign-out workflows**
 - Managing **user sessions and permissions**
-
-### ⚡ **Handling Real-Time Data Updates in the Frontend**
-- Setting up **polling and reactive updates**
-- Using **WebSockets & async patterns** for live updates
-- Displaying dynamic data fetched from **ICP canisters**
 
 ---
 
@@ -55,11 +50,6 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 - Add an **Identity Kit** to your frontend ([NFID](https://nfid.one/), [Internet Identity](https://internetcomputer.org/docs/current/developer-docs/identity/internet-identity/overview))
 - Restrict access to **authenticated users**
 - Store and display **user session details**
-
-### ✅ **Challenge 4: Display and Update Real-Time Data from a Canister**
-- Fetch **real-time data** from an ICP backend
-- Implement **live updates** using polling or WebSockets
-- Display data in an **interactive UI**
 
 ---
 
