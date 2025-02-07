@@ -1,6 +1,6 @@
 # 🚀 ICP Bootcamp - Advanced Frontend
 
-Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**! This challenge will help you build **interactive and secure frontends** for dApps on the **Internet Computer (ICP)** using **TypeScript, Next.js, Tailwind CSS, and Internet Identity**.
+Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**! This challenge will help you build **interactive and secure frontends** for dApps on the **Internet Computer (ICP)** using **TypeScript, React, Tailwind CSS, and Internet Identity**.
 
 ## 📜 Table of Contents
 - [📖 Learning Modules](#-learning-modules)
@@ -15,16 +15,16 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 ### 🏗️ **TypeScript for ICP dApps**
 - Why **TypeScript** is preferred for frontend development
 - Understanding **Types, Interfaces, and Strong Typing**
-- Using TypeScript with **Next.js** and **ICP Canisters**
+- Using TypeScript with **React** and **ICP Canisters**
 
-### 🌍 **Building Frontend dApps with Next.js & Tailwind CSS**
-- Setting up a **Next.js project** for ICP
+### 🌍 **Building Frontend dApps with React & Tailwind CSS**
+- Setting up a **React project** for ICP
 - Styling UI components using **Tailwind CSS**
 - Best practices for **component-based architecture**
 
 ### 🔗 **Integrating with ICP Canisters**
 - Understanding how **frontend dApps interact with canisters**
-- Using **@dfinity/agent** to connect Next.js with ICP
+- Using **@dfinity/agent** to connect React with ICP
 - Fetching and updating **backend data from canisters**
 
 ### 🔐 **Using Internet Identity for Frontend Authentication**
@@ -41,8 +41,8 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 
 ## 🎯 Advanced Challenges
 
-### ✅ **Challenge 1: Create a Next.js + Tailwind Frontend for a Simple dApp**
-- Set up a **Next.js + Tailwind** project
+### ✅ **Challenge 1: Create a React + Tailwind Frontend for a Simple dApp**
+- Set up a **React + Tailwind** project
 - Build a **responsive UI** with modern design
 - Deploy the frontend to **ICP or Vercel**
 
@@ -65,9 +65,9 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 
 ## 🔗 Resources & Documentation
 📚 [Official ICP Docs](https://internetcomputer.org/docs)  
-📚 [Next.js Documentation](https://nextjs.org/docs)  
+📚 [React Documentation](https://react.dev/learn)  
 📚 [Tailwind CSS Documentation](https://tailwindcss.com/docs)  
-📚 [Internet Identity Docs](https://internetcomputer.org/docs/current/developer-docs/identity/internet-identity/overview)  
+📚 [Identity Kit Docs](https://docs.identitykit.xyz/)  
 📚 [ICP Agent Library](https://www.npmjs.com/package/@dfinity/agent)  
 📚 [ICPNinja](https://icp.ninja/) - Hands-on practice platform  
 
