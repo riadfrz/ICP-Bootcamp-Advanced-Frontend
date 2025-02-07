@@ -44,7 +44,7 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 ### ✅ **Challenge 1: Create a React + Tailwind Frontend for a Simple dApp**
 - Set up a **React + Tailwind** project
 - Build a **responsive UI** with modern design
-- Deploy the frontend to **ICP or Vercel**
+- Deploy the frontend to **ICP**
 
 ### ✅ **Challenge 2: Connect the Frontend to an ICP Backend Canister**
 - Use **@dfinity/agent** to communicate with a backend canister
