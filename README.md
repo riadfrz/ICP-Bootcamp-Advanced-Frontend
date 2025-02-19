@@ -12,20 +12,27 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 
 ## 🎯 Advanced Challenges
 
-### ✅ **Challenge 1: Create a React + Tailwind Frontend for a Simple dApp**
-- Set up a **React + Tailwind** project
+Please choose 3 out of 5 that interest you most.
+
+### ✅ **Challenge 1: Improve the React + Tailwind Frontend for a Simple dApp**
 - Build a **responsive UI** with modern design
-- Deploy the frontend to **ICP**
+- Implement Tailwind and have the project looking good for new features being added
 
-### ✅ **Challenge 2: Connect the Frontend to an ICP Backend Canister**
-- Use **@dfinity/agent** to communicate with a backend canister
-- Fetch and display **data from a canister**
-- Implement **frontend interactions** (e.g., submit & retrieve data)
+#### 💡 Tips
+- Learn about Tailwind [Core Concepts](https://tailwindcss.com/docs/styling-with-utility-classes)
+- Start adding some scaffolding (rows and collumns) and any needed [component](https://tailwindui.com/components).
 
-### ✅ **Challenge 3: Implement Internet Identity Authentication**
-- Add an **Identity Kit** to your frontend ([NFID](https://nfid.one/), [Internet Identity](https://internetcomputer.org/docs/current/developer-docs/identity/internet-identity/overview))
-- Restrict access to **authenticated users**
-- Store and display **user session details**
+### ✅ **Challenge 2: Implement Identity Kit for Authentication**
+- Add **Identity Kit** to your frontend ([Installation Docs](https://docs.identitykit.xyz/getting-started/installation))
+- Add both NFID and Interner Identity as providers (wallets).
+- Create a page with restricted access to **authenticated users**
+- Display **user principal**
+
+### ✅ **Challenge 3: Implement Receive a Top Up and then "charge" a Payment**
+- 
+
+### ✅ **Challenge 3: Implement Withdraw remaining Budget**
+- 
 
 ---
 
