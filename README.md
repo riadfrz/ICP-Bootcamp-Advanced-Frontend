@@ -23,7 +23,7 @@ Please do challenges in order. You can submit already when finishing Challenge 2
 #### 💡 Tips
 
 - Learn about Tailwind [Core Concepts](https://tailwindcss.com/docs/styling-with-utility-classes)
-- Start adding some scaffolding (rows and collumns) and any needed [component](https://tailwindui.com/components).
+- Start adding some scaffolding (rows and collumns) and any needed [components](https://tailwindui.com/components).
 
 ### ✅ **Challenge 2: Implement Identity Kit for Authentication**
 
@@ -36,6 +36,9 @@ Please do challenges in order. You can submit already when finishing Challenge 2
 
 - Deploy the nns locally (it will have the ICP Ledger with it)
 - Show current balance of ICP (stored at account ID).
+
+#### 💡 Tips
+- See ["dfx extension install sns"](https://internetcomputer.org/docs/current/developer-docs/developer-tools/cli-tools/cli-reference/dfx-nns/#dfx-nns-install)
 
 ### ✅ **Challenge 4: Implement Receive a Top Up and then "charge" a Payment**
 
