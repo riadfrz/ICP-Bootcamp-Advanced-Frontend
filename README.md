@@ -39,6 +39,7 @@ Please do challenges in order. You can submit already when finishing Challenge 2
 
 #### 💡 Tips
 - See ["dfx extension install sns"](https://internetcomputer.org/docs/current/developer-docs/developer-tools/cli-tools/cli-reference/dfx-nns/#dfx-nns-install)
+- And also how to access a local "rich account", from where you can make transfers from. (see the bottom of that page/link just above)
 
 ### ✅ **Challenge 4: Implement Receive a Top Up and then "charge" a Payment**
 
