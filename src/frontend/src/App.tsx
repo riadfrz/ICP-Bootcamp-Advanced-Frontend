@@ -25,6 +25,9 @@ function App() {
         <button type="submit">Click Me!</button>
       </form>
       <section id="greeting">{greeting}</section>
+      <br />
+      <br />
+      <h1 className="text-3xl font-bold underline">Hello world in Tailwind!</h1>
     </main>
   );
 }
