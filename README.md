@@ -12,7 +12,7 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 
 ## 🎯 Advanced Challenges
 
-Please choose 3 out of 5 that interest you most.
+Please do challenges in order. You can submit already when finishing Challenge 2. If you can, feel free to do all challenges (by order).
 
 ### ✅ **Challenge 1: Improve the React + Tailwind Frontend for a Simple dApp**
 - Build a **responsive UI** with modern design
@@ -26,12 +26,15 @@ Please choose 3 out of 5 that interest you most.
 - Add **Identity Kit** to your frontend ([Installation Docs](https://docs.identitykit.xyz/getting-started/installation))
 - Add both NFID and Interner Identity as providers (wallets).
 - Create a page with restricted access to **authenticated users**
-- Display **user principal**
+- Display **user principal** and **user account id**
 
 ### ✅ **Challenge 3: Implement Receive a Top Up and then "charge" a Payment**
-- 
+- Deploy the nns locally (it will have the ICP Ledger with it)
+- Show current balance of ICP (stored at account ID). Ask user to transfer to it and allow to update with a refresh of page or spinner button.
+- Have a button saying "pay 0.1 ICP" and charge it when clicked.
+- Store on a variable (in backend) how many times it was purchased and render it in frontend.
 
-### ✅ **Challenge 3: Implement Withdraw remaining Budget**
+### ✅ **Challenge 4: Implement Withdraw remaining Budget**
 - 
 
 ---
