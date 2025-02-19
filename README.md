@@ -3,14 +3,33 @@
 Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**! This challenge will help you build **interactive and secure frontends** for dApps on the **Internet Computer (ICP)** using **TypeScript, React, Tailwind CSS, and Internet Identity**.
 
 ## 📜 Table of Contents
-- [📖 Learning Modules](#-learning-modules)
 - [🎯 Advanced Challenges](#-advanced-challenges)
+- [📖 Learning Outcomes](#-learning-outcomes)
 - [🔗 Resources & Documentation](#-resources--documentation)
 - [📩 Submit Your Project!](#-submit-your-project)
 
 ---
 
-## 📖 Learning Modules
+## 🎯 Advanced Challenges
+
+### ✅ **Challenge 1: Create a React + Tailwind Frontend for a Simple dApp**
+- Set up a **React + Tailwind** project
+- Build a **responsive UI** with modern design
+- Deploy the frontend to **ICP**
+
+### ✅ **Challenge 2: Connect the Frontend to an ICP Backend Canister**
+- Use **@dfinity/agent** to communicate with a backend canister
+- Fetch and display **data from a canister**
+- Implement **frontend interactions** (e.g., submit & retrieve data)
+
+### ✅ **Challenge 3: Implement Internet Identity Authentication**
+- Add an **Identity Kit** to your frontend ([NFID](https://nfid.one/), [Internet Identity](https://internetcomputer.org/docs/current/developer-docs/identity/internet-identity/overview))
+- Restrict access to **authenticated users**
+- Store and display **user session details**
+
+---
+
+## 📖 Learning Outcomes
 
 ### 🏗️ **TypeScript for ICP dApps**
 - Why **TypeScript** is preferred for frontend development
@@ -31,25 +50,6 @@ Welcome to the **Internet Computer Protocol (ICP) Bootcamp - Advanced Frontend**
 - Understanding **decentralized authentication** with Identity Kit (Internet Identity and NFID)
 - Implementing **sign-in & sign-out workflows**
 - Managing **user sessions and permissions**
-
----
-
-## 🎯 Advanced Challenges
-
-### ✅ **Challenge 1: Create a React + Tailwind Frontend for a Simple dApp**
-- Set up a **React + Tailwind** project
-- Build a **responsive UI** with modern design
-- Deploy the frontend to **ICP**
-
-### ✅ **Challenge 2: Connect the Frontend to an ICP Backend Canister**
-- Use **@dfinity/agent** to communicate with a backend canister
-- Fetch and display **data from a canister**
-- Implement **frontend interactions** (e.g., submit & retrieve data)
-
-### ✅ **Challenge 3: Implement Internet Identity Authentication**
-- Add an **Identity Kit** to your frontend ([NFID](https://nfid.one/), [Internet Identity](https://internetcomputer.org/docs/current/developer-docs/identity/internet-identity/overview))
-- Restrict access to **authenticated users**
-- Store and display **user session details**
 
 ---
 
