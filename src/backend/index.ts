@@ -17,6 +17,18 @@ export default class {
     }
   }
 
+  @query([IDL.Principal], IDL.Nat)
+  public getUserId1(userPrincipal: string): number {
+    if (this.userIdMap.has(userPrincipal)) {
+      return this.userIdMap.get(userPrincipal)!;
+    } else {
+      const newId = this.nextId;
+      this.userIdMap.set(userPrincipal, newId);
+      this.nextId += 1;
+      return newId;
+    }
+  }
+
   @query([IDL.Text], IDL.Text)
   greet(name: string): string {
     return `${this.message} ${name}!`;
