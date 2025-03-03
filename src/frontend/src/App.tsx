@@ -14,7 +14,6 @@ import RestrictedPage from "./components/RestrictedPage.js";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
-
 const App: React.FC = () => {
   return (
     <IdentityKitProvider
@@ -24,20 +23,14 @@ const App: React.FC = () => {
       }}
     >
       <Router>
-        <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-500 via-teal-400 to-indigo-600">
+        <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300">
           <Header />
 
           {/* Main Content Area */}
           <div className="flex-grow">
             <Routes>
-              <Route
-                path="/login"
-                element={<LoginPage />}
-              />
-              <Route
-                path="/restricted"
-                element={<RestrictedPage />}
-              />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/restricted" element={<RestrictedPage />} />
               <Route
                 path="/"
                 element={
@@ -53,23 +46,32 @@ const App: React.FC = () => {
                       {/* Feature Section */}
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
-                          <h3 className="text-2xl font-semibold text-gray-800 mb-2">ICP Showcase</h3>
+                          <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+                            ICP Showcase
+                          </h3>
                           <p className="text-lg text-gray-600">
-                            Discover the power of Internet Computer Protocol (ICP) and how it can scale decentralized apps.
+                            Discover the power of Internet Computer Protocol
+                            (ICP) and how it can scale decentralized apps.
                           </p>
                         </div>
 
                         <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
-                          <h3 className="text-2xl font-semibold text-gray-800 mb-2">Bootcamp</h3>
+                          <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+                            Bootcamp
+                          </h3>
                           <p className="text-lg text-gray-600">
-                            Enroll in our bootcamp to learn everything about building with the Internet Computer platform.
+                            Enroll in our bootcamp to learn everything about
+                            building with the Internet Computer platform.
                           </p>
                         </div>
 
                         <div className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
-                          <h3 className="text-2xl font-semibold text-gray-800 mb-2">Features</h3>
+                          <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+                            Features
+                          </h3>
                           <p className="text-lg text-gray-600">
-                            Explore the unique features of the DFINITY app and begin your journey with the decentralized web.
+                            Explore the unique features of the DFINITY app and
+                            begin your journey with the decentralized web.
                           </p>
                         </div>
                       </div>
